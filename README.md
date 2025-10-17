@@ -1,5 +1,10 @@
 # 🎓 LearnHub - Learning Management System
 
+[![GitHub](https://img.shields.io/badge/GitHub-vision__Quads-181717?logo=github)](https://github.com/kvardhan1234/vision_Quads)
+[![Made with React](https://img.shields.io/badge/Made%20with-React-61DAFB?logo=react)](https://reactjs.org/)
+[![Node.js](https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white)](https://nodejs.org/)
+[![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white)](https://www.mysql.com/)
+
 ## 📋 Overview
 LearnHub is a comprehensive Learning Management System built with modern web technologies, featuring role-based access for students and teachers, course management, assignment submission, grading, and event scheduling.
 
@@ -153,7 +158,8 @@ POST /api/events        - Create new event
 
 1. **Clone the repository**
 ```bash
-cd LMS-Hackathon
+git clone https://github.com/kvardhan1234/vision_Quads.git
+cd vision_Quads
 ```
 
 2. **Backend Setup**
@@ -319,8 +325,13 @@ LMS-Hackathon/
 ## 📝 License
 This project is created for educational purposes.
 
-## 👥 Contributors
+## 👥 Team Vision Quads
+
+Developed for MBU Hackathon by **Vision Quads** team.
+
+### Contributors
 - Vardhan (Full Stack Development)
+- Team Vision Quads Members
 
 ---
 
