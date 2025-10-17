@@ -1,0 +1,152 @@
+:root {
+    /* Main Formal Color */
+    --primary-color-login: #1e40af;
+    --background-color-login-subtle: #f9fbfd; /* Subtle background */
+    --card-bg-color-login: #ffffff;
+    
+    /* New Dignity Gradient for Buttons */
+    --dignity-gradient: linear-gradient(to right, #6a11cb 0%, #2575fc 100%); 
+    --dignity-gradient-hover: linear-gradient(to right, #7b32d2 0%, #3a81fd 100%);
+
+    /* ... (rest of the login colors) ... */
+}
+
+/* Page Container and Layout - Dignified Background */
+.login-page-container {
+    min-height: 100vh;
+    background-color: var(--background-color-login-subtle); /* Apply the dignified light background */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* Login Card */
+.login-card {
+    background-color: var(--card-bg-color-login);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    padding: 40px;
+    max-width: 450px; /* Slightly narrower than registration */
+    width: 100%;
+}
+
+.login-title {
+    font-size: 28px;
+    font-weight: 600;
+    color: var(--text-dark-color-login);
+    margin-bottom: 15px;
+}
+
+.student-login-prompt {
+    font-size: 15px;
+    color: var(--text-light-color-login);
+    margin-bottom: 5px;
+}
+
+.student-login-link {
+    color: var(--primary-color-login); /* Blue link */
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 5px;
+}
+
+.student-login-link:hover {
+    text-decoration: underline;
+}
+
+.browser-recommendation {
+    font-size: 13px;
+    color: #999999;
+    margin-bottom: 25px;
+}
+
+/* Form Group (reused from registration for consistency) */
+.login-form-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.login-form-content .form-group label {
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--text-dark-color-login);
+    margin-bottom: 5px;
+}
+
+.login-form-content .form-input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid var(--border-color-login);
+    border-radius: 6px;
+    font-size: 16px;
+    transition: border-color 0.15s ease-in-out;
+}
+
+.login-form-content .form-input:focus {
+    border-color: var(--primary-color-login);
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(30, 64, 175, 0.2);
+}
+
+/* Password Links */
+.password-links {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.forgot-password-link, .activation-link {
+    color: var(--primary-color-login); /* Blue links */
+    text-decoration: none;
+}
+
+.forgot-password-link:hover, .activation-link:hover {
+    text-decoration: underline;
+}
+
+/* Login Button - Apply the Dignity Gradient */
+.login-btn-primary {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 14px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 8px;
+    background: var(--dignity-gradient); /* Use the new gradient */
+    color: var(--white-color); 
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); 
+}
+
+.login-btn-primary:hover {
+    background: var(--dignity-gradient-hover); /* Hover gradient */
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(106, 17, 203, 0.3); /* Shadow reflecting the purple color */
+}
+/* Messages (reused) */
+.message {
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    font-weight: 500;
+}
+
+.message-success {
+    background-color: #d1fae5;
+    color: #065f46;
+}
+
+.message-error {
+    background-color: #fee2e2;
+    color: #991b1b;
+}
