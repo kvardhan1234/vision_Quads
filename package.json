@@ -1,0 +1,25 @@
+{
+  "name": "learnhub-lms",
+  "version": "1.0.0",
+  "description": "LearnHub Learning Management System",
+  "scripts": {
+    "start": "cd lms-backend && node server.js",
+    "dev": "cd lms-backend && node server.js",
+    "install-backend": "cd lms-backend && npm install",
+    "install-frontend": "cd lms-portal && npm install",
+    "install-all": "npm run install-backend && npm run install-frontend"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "keywords": [
+    "lms",
+    "learning-management-system",
+    "education",
+    "mysql",
+    "react",
+    "nodejs"
+  ],
+  "author": "Vision Quads",
+  "license": "MIT"
+}
