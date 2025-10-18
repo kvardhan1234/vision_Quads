@@ -1,4 +1,5 @@
 {
+  "$schema": "https://json.schemastore.org/package.json",
   "name": "learnhub-lms",
   "version": "1.0.0",
   "description": "LearnHub Learning Management System",
